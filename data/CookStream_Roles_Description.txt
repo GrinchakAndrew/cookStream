@@ -1,0 +1,71 @@
+<div style="margin-left: auto; margin-right: auto; border: 1px solid white;">
+        <table style="border: 2px; margin-left: auto; margin-right: auto; font-size: 16px;">
+            <tbody>
+                <tr>
+                    <th valign="middle" style="height: 2em; font-weight: bold; border: 1px solid white; text-align: center; color:#900000; padding: 1px;   vertical-align: middle;">CookStream</th>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+</div>
+<div style="margin-left: auto; margin-right: auto; height: 2em; font-size: 16px; color: #333399;   text-align: center;">
+        <div style="margin-top: 0.5em;">Roles Description:</div>
+</div>
+<div style="margin-left: auto; margin-right: 0 auto; border: 1px solid #6690BC; text-align: center;"><span style="text-align: center; line-height: 30px; color: #6690bc; font-size: 17px;">Description</span>
+
+<table style="width: 100%; margin: 0 auto; border-collapse: collapse; border: 1px solid #fff;">
+                            <tbody>
+                                <tr>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>#</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Role</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Description</strong>
+                                    </th>
+                                </tr>
+								<tr>
+                                    <td style="border-right: 1px solid #EEE; padding: 7pt; text-align: center;">1</td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #EEE; padding:10pt; text-align: center;">
+                                        User
+                                    </td>
+                                    <td style="  border-right-width: 1px; border-right-style: solid; border-right-color: #fff; padding: 5pt; text-align: left;">
+										 Registers in the system and is added to the list of users in the admin panel.</br>
+									</td>
+                                </tr>
+								<tr>
+                                    <td style="border-right: 1px solid #EEE; padding: 7pt; text-align: center;">2</td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #EEE; padding:10pt; text-align: center;">
+										Admin 	
+                                    </td>
+                                    <td style="  border-right-width: 1px; border-right-style: solid; border-right-color: #fff; padding: 5pt; text-align: left;">
+										Can upload videos to the video feed, and categories the video by the content of the ingerdients.</br>
+										Can categories the video by the category of the dish (e.g., 'Soup'). </br>
+										Can remove users.</br>
+										Invites users throught the admin panel.</br>
+									</td>
+                                </tr>
+								<tr>
+                                    <td style="border-right: 1px solid #EEE; padding: 7pt; text-align: center;">3</td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #EEE; padding:10pt; text-align: center;">
+										Super-admin
+                                    </td>
+                                    <td style="  border-right-width: 1px; border-right-style: solid; border-right-color: #fff; padding: 5pt; text-align: left;">
+										Can add other Admins (content managers) </br>
+										Activates users for free towards special diet advices [video recipes] (outside of the payment system flow)</br>
+										Can activate users to freely see all of the diets even if user is on trial.</br>
+									</td>
+                                </tr>
+								
+								
+								
+		   
+		   
+	
+								
+								
+                            </tbody>
+                        </table>
+
+</div>
+

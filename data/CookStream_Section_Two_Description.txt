@@ -1,0 +1,59 @@
+<div style="margin-left: auto; margin-right: auto; border: 1px solid white;">
+        <table style="border: 2px; margin-left: auto; margin-right: auto; font-size: 16px;">
+            <tbody>
+                <tr>
+                    <th valign="middle" style="height: 2em; font-weight: bold; border: 1px solid white; text-align: center; color:#900000; padding: 1px;   vertical-align: middle;">CookStream</th>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+</div>
+<div style="margin-left: auto; margin-right: auto; height: 2em; font-size: 16px; color: #333399;   text-align: center;">
+        <div style="margin-top: 0.5em;">Section # 2: </div>
+</div>
+<div style="margin-left: auto; margin-right: 0 auto; border: 1px solid #6690BC; text-align: center;"><span style="text-align: center; line-height: 30px; color: #6690bc; font-size: 17px;">Description</span>
+
+<table style="width: 100%; margin: 0 auto; border-collapse: collapse; border: 1px solid #fff;">
+                            <tbody>
+                                <tr>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>#</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Functionality</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Description</strong>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="border-right: 1px solid #EEE; padding: 7pt; text-align: center;">1</td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #EEE; padding:10pt; text-align: center;">
+										'CookStream fitness': section of the application
+                                    </td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #fff; padding: 5pt; text-align : left;">
+									<b>Scenario</b>: User passes Questionnaire:</br></br>
+										<b>When</b> : User who is registered in the application</br>
+										<b>And</b> : User answers ~20 questions about health</br>
+										<b>And</b> : User gets the information about the results of the questionnaire he just passed</br>
+										<b>Then</b> : User gets recommendations on his regimen and food dieting, e.g., overweight people who get advice on how to streamline their health</br>	
+										NB! Logic: typify people by categories (1, 2, 3, 4 categories) + corresponding advice: </br></br>
+	
+	<b>Scenario</b>: User is typified, 3 days diet is generated automatically</br></br>
+	<b>When</b> : I am a user</br>
+	<b>And</b> : I passed the ~20 questions</br>
+	<b>And</b> : the questionnaire is passable only once for me</br>
+	<b>And</b> : I was typified by the logic of the application</br>
+	<b>Then</b> : I am automatically put on a trial period to follow the diet \ staple food three days ahead</br>
+	<b>And</b> : My food diet is automatically saved for the three days of the week ahead of time: </br>
+		e.g., Monday, Tue, Wed.</br>
+	<b>And</b> : Trial continues 3 days from the moment the questionnaire has been completed</br></br>
+	<b>Scenario</b>: User buys weekly dieting program:</br></br>
+	<b>When</b> : User has received the diet for three days ahead</br>
+	<b>Then</b> : User can immediately buy one weekly dieting program</br>
+	<b>And</b> : Make an online payment with his credit card</br>
+									</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+</div>
+

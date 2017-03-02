@@ -1,0 +1,48 @@
+<div style="margin-left: auto; margin-right: auto; border: 1px solid white;">
+        <table style="border: 2px; margin-left: auto; margin-right: auto; font-size: 16px;">
+            <tbody>
+                <tr>
+                    <th valign="middle" style="height: 2em; font-weight: bold; border: 1px solid white; text-align: center; color:#900000; padding: 1px;   vertical-align: middle;">CookStream</th>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+        </table>
+</div>
+<div style="margin-left: auto; margin-right: auto; height: 2em; font-size: 16px; color: #333399;   text-align: center;">
+        <div style="margin-top: 0.5em;">Section # 1: </div>
+</div>
+<div style="margin-left: auto; margin-right: 0 auto; border: 1px solid #6690BC; text-align: center;"><span style="text-align: center; line-height: 30px; color: #6690bc; font-size: 17px;">Description</span>
+
+<table style="width: 100%; margin: 0 auto; border-collapse: collapse; border: 1px solid #fff;">
+                            <tbody>
+                                <tr>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>#</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Functionality</strong>
+                                    </th>
+                                    <th style="border-right: 1px solid #FFF; text-align: center; background-color: #EEE; color: #000; padding: 2pt;" valign="middle"><strong>Description</strong>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="border-right: 1px solid #EEE; padding: 7pt; text-align: center;">1</td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #EEE; padding:10pt; text-align: left;">
+										News feed with the quick-like video clips with cooking sessions
+                                    </td>
+                                    <td style="border-right-width: 1px; border-right-style: solid; border-right-color: #fff; padding: 5pt; text-align: left;">
+										<b>Questions</b>:
+										- no validation for the length of the video feed;</br>
+										- video format mp4 ???</br></br>
+										<b>Scenario</b>: News feed upload as a video file, by admin or super-admin: </br></br>
+										<b>When</b>: video is uploaded via the admin panel</br>
+										<b>Then</b>: Content manager should be able to add tags with ingredients to it from the list of available ingredients</br>
+										<b>And</b>: should be also adding categories as tooltips from the list of available names to tag the video by the category, i.e. 'Soup'</br>
+										<b>So that</b>: the video could be filtered by the ingerdients and the categories</br></br>
+										NB! We do not have filtering by the title of the video: the title of the video is arbitrary</br>
+									</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+</div>
+
