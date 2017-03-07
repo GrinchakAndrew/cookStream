@@ -359,10 +359,16 @@
 													<li>
 														NB! </br>
 														Ignore the '<b>Already have an Account</b>' anchor</br>
-														- When User logs in via telephone number, he</br>
-														can input his Facebook account in the profile</br> settings, and this way, ONE account is related to the telephone number and FB account</br>
-														Telephone number + Facebook are both mandatory</br> fields for Sign-up flow</br>
-														to bind them into one account</br>
+													</li>
+													<li>
+														<b>When</b> : User logs in via telephone number</br>
+														<b>Then</b> : User has optional input for his Facebook account</br>
+														<b>And</b>: User can skip this input, if he has no Facebook account</br>
+													</li>
+													<li>
+														<b>When</b> : User logs in via Facebook account</br>
+														<b>Then</b> : User has mandatory input for his Facebook account</br>
+														<b>And</b>: User cannot skip this input</br>
 													</li>
 												</ul>
 											</td>
