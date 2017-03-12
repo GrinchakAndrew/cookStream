@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CookStream</title>
+	<script type="text/javascript" src="js/sheetrock.min.js"></script>
+	  <link rel="stylesheet" href="js/bootstrap.min.css">
+	<style>
+		table td:not(:first-child) {
+			text-align: center;
+			min-width: 150px;
+		}
+		table th {
+			text-align: center;
+		}
+		
+		table {
+			margin-top: 25px;
+		}
+	</style>
+	<script type="text/javascript" >
+			var spreadsheet = "https://docs.google.com/spreadsheets/d/1lvvZ-1_w2eM-qB4l1bcp2mJGAyBi2Q9hHlZzRvfrYDQ/edit#gid=918624407";
+			$(document).ready(function(){
+			/*Estimations: PHP*/
+			/* 
+			$('#classes').sheetrock({
+					url : spreadsheet, 
+					query: "select A, C where A contains 'PHP'",
+					labels : ['Tasks', 'PHP'],
+					headersOff : true, 
+					callback : function(a, b, c){
+						console.log(a, b, c);
+					}
+			}); */
+			
+			$('#classes').sheetrock({
+					url : spreadsheet, 
+					query: "select A, F, G where (F is not null or G is not null)",
+					labels : ['Tasks', 'Anroid Markup', 'Android Logic'],
+					callback : function(a, b, c){
+						console.log(a, b, c);
+					}
+			});
+			
+			/* $('#classes').sheetrock({
+					url : spreadsheet, 
+					query: "select A, C where A contains 'Total hrs'",
+					labels : ['Estimation', 'PHP'],
+					headersOff : true
+			}); */
+			
+		});
+	</script>
+</head>
+<body>
+	<table id="classes" class="table-responsive table-bordered table-striped"></table>
+</body>
+</html>

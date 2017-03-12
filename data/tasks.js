@@ -12,6 +12,13 @@
 		{"User-Scenarios" : [
 					{"User-Scenarios by UI" : {"(1) UI Description" : "data/CookStream_UI/UI.html"}}
 				  ]
+		}, 
+		{"Estimations" : [
+					{"PHP" : {"(1) PHP CookStream Estimates" : "data/CookStream_Estimations_PHP.txt"}}, 
+					{"iOS" : {"(1) iOS CookStream Estimates" : "data/CookStream_Estimations_iOS.txt"}},
+					{"Android" : {"(1) Android CookStream Estimates" : "data/CookStream_Estimations_Android.txt"}}
+					
+				  ]
 		}
 	]
 }
