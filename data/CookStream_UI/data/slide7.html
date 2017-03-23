@@ -29,20 +29,23 @@
 										<tr>
 											<td class="c52" colspan="6" rowspan="1">
 											<div style="text-align: center;" id="ui8"></div>
+											<div style="text-align: center;" id="keep_eating_healthy"></div>
 											<ul class="ul-slide">
 											<li>
 												<b>User-story</b>:  Recommended Dieting <br/>
 												<b>When</b>: I have successfully submitted my 'Fitness Questionnaire' answers 
 												<br/>
 												<b>Then</b>: I can click-through to the screen with Recommended Dieting for the week ahead by Days, starting from TODAY <br/>
-												<b>And</b>: I can click on any of the three days of the week , if I am in trial mode of the Fitness Section<br/>
-												<b>And</b>: <br/>
+												<b>And</b>: I can click on any of the three days of the week , if I am in trial mode of the Fitness Section, to see the recommended dieting: 
+												each Recommended Diet has 3 components : breakfast, lunch, dinner.
+												<br/>
 											</li>
 											<li>
-												NB! Server-side logic:<br/>
-												Each Recommended Diet has 3 components : breakfast, lunch, dinner.<br/>
+												<b>When</b>: User clicks on the Day of the Week<br/>
+												<b>And</b>: the Day is locked [padlock sign under the day]<br/>
+												<b>Then</b>: the Keep Eating Healthy UI should show<br/>
+												<b>And</b>: 'Unlock all days now ->' clickable anchor should be functional to redirect user to Stripe payment website<br/>
 											</li>
-							
 			</ul>
 										</td>
 								</tbody>
