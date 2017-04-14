@@ -12,6 +12,7 @@
 					"data/CookStream_UI/data/slide11.html",
 					"data/CookStream_UI/data/slide12.html",
 					"data/CookStream_UI/data/slide13.html",
-					"data/CookStream_UI/data/slide14.html"
+					"data/CookStream_UI/data/slide14.html", 
+					"data/CookStream_UI/data/slide15.html"
 					]
 }
