@@ -34,6 +34,7 @@
 														<b>And</b>: User is able to see the list of ingredients in the video<br/>
 														<b>And</b>: each ingredient in the table-list of those has the specific weight in kg \ pounds<br/>
 													</li>
+													<br/>
 													<li>
 														<b>User-story</b>:  User clicks on additional details for the video<br/>
 														<b>When</b>: User taps on the video in the video stream 
@@ -45,13 +46,14 @@
 														<b>And</b>: User is able to see the list of ingredients in the video<br/>
 														<b>And</b>: each ingredient in the table-list of those has the specific weight in kg \ pounds<br/>
 													</li>
+													<br/>
 													<li>
 														<b>User-story</b>:  User clicks to add a review<br/>
 														<b>When</b>: User is on the detailed view of a video reviews with the most recent comment up top
 														<br/>
 														<b>Then</b>: User should see a review input with the placeholder '<b>leave your review</b>'<br/>
-														
 													</li>
+													<br/>
 													<li>
 														<b>User-story</b>:  User actually leaves a review<br/>
 														<b>When</b>: User focuses on the review input
@@ -64,6 +66,19 @@
 														<b>When</b>: User taps Go to submit a review
 														<br/>
 														<b>Then</b>: User should be redirected to Screen '<b>Thank you</b>'<br/>
+													</li>
+													<br/>
+													<li>
+														<b>User-story</b>:  No Reviews Yet for a Video<br/>
+														<b>When</b>: There are no reviews for a given video
+														<br/>
+														<b>Then</b>: User should be invited to leave a review: 
+														<br/>
+															<b>And</b>: 
+																1. 'Read more reviews' - text should be changed to 'Be the first to leave a review'<br/>
+																2. counter for reviews should be nullified<br/>
+																3. 5 pots should show unchecked state<br/>
+														<br/>
 													</li>
 												</ul>	
 											</td>
