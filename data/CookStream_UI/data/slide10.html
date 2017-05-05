@@ -36,23 +36,21 @@
 													<b>And</b> : I should see the list of max 4-5 suggestions<br/>
 													<b>And</b> : user can tap-select the matched item from the list to input it into the field
 													<br/>
+													<b>And</b> : after user tap-selects the matched item from the list, the item does not disappear from the list, no matter the animation
+													<br/>
 													<b>And</b> : user can press Cancel to erase a inputted word
 													<br/>
-													<br/>
-													
 													<b>When</b> : user has clicked on Add against the input field<br/>
 													<b>Then</b> : the inputted word is added as a tag <br/>
 													<b>And</b> : the tags are highlighted in the following color-map logic: <br/>
 													<br/>
-														* Fish : blue<br/>
-														* Meat : red <br/>
-														* Onion : green <br/>
+														* Fish : <span style="color: blue;">blue</span><br/>
+														* Meat : <span style="color: red;">red</span> <br/>
+														* Onion : <span style="color: green;">green</span> <br/>
 													<br/>	
-													<br/>
 													<b>When</b> : I have added a list of food items to 'Food in your fridge'<br/>
 													<b>Then</b> : I can remove any food item from the list by tapping the x -sign<br/>
 													<b>And</b> : i should be able to see the clickable anchor with the overall number of recipes found acc. to the list above<br/>
-													<br/>
 													<br/>
 													<b>When</b> : I click on the clickable anchor with the overall number of recipes found <br/>
 													<b>Then</b> : I am redirect to the Streaming Location for all of the found video-recipes<br/>
@@ -60,13 +58,16 @@
 													<b>And</b> : I should be able to see the videos that match my ingredients in a separate screen on my device
 													<br/>
 													</li>
+													<br/>
 													<li>
 													Logic for matching videos by the listed ingredients in my fridge: <br/>
 													complete match 100%; <br/>
 													partial match by 50%, <br/>
 													partial match by lesser percentage -> <br/>
 													<b>display the results in the order of the descending percentage of matching</b>
+													<br/>
 													</li>
+													<br/>
 												</ul>	
 											</td>
 										</tr>
