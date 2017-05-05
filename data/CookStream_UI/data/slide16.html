@@ -21,14 +21,47 @@
 											<div id="" style="text-align : center;"></div>
 												<ul class="ul-slide">
 													<li>
-														<b>User-story</b>: PUSH notifications<br/>
+														<b>User-story</b>: PUSH notifications -> questionnaire never started upon | left off in the middle<br/>
 														<b>When</b> : User has never begun to pass the questionnaire<br/>
 														<b>And \ Or</b> : User has not completed the questionnaire, but started passing it<br/>
 														<b>Then </b> : User should receive an invite to start passing the questionnaire as PUSH notification<br/>
 														<b>And \ Or</b> : User should receive an invite to continue passing the questionnaire<br/>
 														<b>And</b> : the frequency of the PUSH notifications should be ONCE a week.<br/>
-														<b>NOT IN THIS SCOPE</b> : 
-														Make the frequency variable for PUSH notifications configurable on the server-side to change periodicity of PUSH-notifications. 
+														<b>NOT IN THIS SCOPE</b> : <br/>
+														Make the frequency variable for PUSH notifications configurable on the server-side to change periodicity of PUSH-notifications. <br/>
+													</li>
+													<br/>
+													<li>
+														<b>User-story</b>: PUSH notifications -> new videos added<br/>
+														<b>When</b> : no less then 10 videos have been added to the stream<br/>
+														<b>Then</b> : PUSH notification is dispatched to the user<br/>
+														<b>And</b> : the text is: "New Videos Added"<br/>
+														<b>And</b> : click on the PUSH notification redirects the user to the stream, to the topmost video<br/>
+													</li>
+													<br/>
+													<li>
+														<b>User-story</b>: PUSH notifications -> purchase of the next week<br/>
+														<b>When</b> : user has NOT subscribed within 5 days <br/>
+														<b>And</b> : the current week's subscription has expired<br/>
+														<b>Then</b> : PUSH notification is dispatched to the user<br/>
+														<b>And</b> : the text is: "Next Week Subscription Pending"<br/>
+														<b>And</b> : click on the PUSH notification redirects the user to the online website for payment via Stripe<br/>
+													</li>
+													<br/>
+													<li>
+														<b>User-story</b>: PUSH notifications -> new category added<br/>
+														<b>When</b> : new category has been added<br/>
+														<b>Then</b> : PUSH notification is dispatched to the user<br/>
+														<b>And</b> : the text is: "Check our new category"<br/>
+														<b>And</b> : click on the PUSH notification redirects the user to the added category view<br/>
+													</li>
+													<br/>
+													<li>
+														<b>User-story</b>: PUSH notifications -> user did not log in to application for more than 3 days: invite to sign in<br/>
+														<b>When</b> : user did not log in to application for more than 3 days<br/>
+														<b>Then</b> : PUSH notification is dispatched to the user<br/>
+														<b>And</b> : the text is: "Please sign in to check our latest on CookStream"<br/>
+														<b>And</b> : click on the PUSH notification redirects the user to sign in<br/>
 													</li>
 												</ul>
 											</td>
