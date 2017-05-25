@@ -21,7 +21,6 @@
 												<div id="ui9" style="text-align : center;"></div>
 												<div id="leaving_review_0" style="text-align : center;"></div>
 												<div id="leaving_review" style="text-align : center;"></div>
-												<div id="leaving_review_2" style="text-align : center;"></div>
 												<ul class="ul-slide">
 													<li>
 														<b>User-story</b>:  User clicks to view additional details for a video<br/>
@@ -42,7 +41,7 @@
 														<b>Then</b>: a detailed view of a video review with the most recent comment on the video <br/>
 														<b>And</b>: a clickable anchor 'Read more Reviews' to see all of comments to the video<br/>
 														<b>And</b>: the comments are ordered by most recent to less recent ones <br/>
-														<b>And</b>: User is able to see the amount of likes a user gave to a given video (icon 'pot' with the number)<br/>
+														<b>And</b>: User is able to see the amount of detailed reviews per given video (icon 'pot' with the number)<br/>
 														<b>And</b>: User is able to see the list of ingredients in the video<br/>
 														<b>And</b>: each ingredient in the table-list of those has the specific weight in kg \ pounds<br/>
 													</li>
@@ -65,16 +64,18 @@
 														<b>User-story</b>:  User taps Go to submit a review<br/>
 														<b>When</b>: User taps Go to submit a review
 														<br/>
-														<b>Then</b>: User should be redirected to Screen '<b>Thank you</b>'<br/>
+														<b>Then</b>: User should see a popup window '<b>Thank you</b>'<br/>
+														<span>Note: color of the popup window is a question to the client as of May-25, 2017</span>
+														<b>And</b>: User should not be redirected from the 'Reviews' location<br/>
 													</li>
 													<br/>
 													<li>
-														<b>User-story</b>:  User taps pots above the video to directly set his rating without leaving a review<br/>
+														<b>User-story</b>:  User taps pots above the video to directly set his likes<br/>
+														<b>Given</b>: smaller pots above the video in the stream are greyed out<br/>
 														<b>When</b>: User taps on any of the 5 smaller pots above the video 
 														<br/>
-														<b>Then</b>: User should be able to directly set his rate without going to video details view<br/>
-														<b>And</b>: User should see animation of a boiling pot in the background of the tapped pot<br/>
-														<b>And</b>: The average rate per video should re-calculate accordingly<br/>
+														<b>Then</b>: User should be able to directly set his likes<br/>
+														<b>And</b>: The corresdonding number of likes color the pots<br/>
 													</li>
 													<br/>
 													<li>
